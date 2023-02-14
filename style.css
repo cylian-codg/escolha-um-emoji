@@ -1,0 +1,46 @@
+#cimapart {
+    background:black;
+            left: 285px;
+            padding:10;
+        } /*definir  margem e largura da parte de cima*/ 
+
+             #cimapart h1{
+             color: white; 
+             text-align: center;
+             }/*definir cor e alinhamento das tag's h1 da classe cimapart*/
+             #cimapart p{
+             color:white;
+             text-align: center; 
+             }/*definir cor e alinhamento das tag's p da classe cimapart*/
+#ladoEsq {
+    float:left;
+    width:110px;/*largura igual a 110px*/
+    
+}
+#centro {
+    float:left;
+    width:620px;/*largura igual a 600px*/
+    background:white;
+}
+#centro table{
+    border: 2px;
+}
+.emoji {
+    width: 300px;/*largura igual a 100px*/
+    height: 300px;/*altura igual a 100px*/
+    background-color: white;
+ }
+#ladoDirt {
+    float:right;
+    width:310px;/*largura igual a 110px*/
+    background-repeat: space;
+    
+}
+#baixo {
+    clear:both;
+    background:#ff9;
+}
+body  {  	
+    background: #ff9; /*fundo branco*/ 
+    background-position: center; /*cantralizando corpo*/
+    } /*tirar as margens e deixar todo o fundo do corpo branco*/

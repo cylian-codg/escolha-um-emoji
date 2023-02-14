@@ -1,0 +1,63 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} /* trocando todas as fontes por Geneva (por ser a que tem)*/
+
+body  {  	
+    margin: 0; 	/*nemhuma margem*/ 
+    padding:10;
+    background-position: center;
+	background: #ddd; /*fundo branco*/ 
+    } /*tirar as margens e deixar todo o fundo do corpo branco*/
+        
+        #cimapart {
+            background:black;
+            position: fixed;
+            width: 800px;
+            left: 285px;
+            padding:10;
+        } /*definir  margem e largura da parte de cima*/ 
+
+             #cimapart h1{
+             color: white; 
+             text-align: center;
+             }/*definir cor e alinhamento das tag's h1 da classe cimapart*/
+             #cimapart p{
+             color:honeydew;
+             text-align: center; 
+             }/*definir cor e alinhamento das tag's p da classe cimapart*/
+                
+                #ladoEsq  {  	 	
+                    float:left; /*posição recebe esquerda*/
+                    width:100px;  /*largura igual a 240px*/
+                    padding:10px;
+                    left: 800px;
+                    }/*definir  margem e largura da primeira coluna*/
+                    #centro{
+                        float:left; /* posição central*/
+                        padding:10px;
+                        left: 800px;
+                        width:900px;/* 720 pixels de largura*/
+                    
+                    } /*definir  margem e largura da segunda coluna*/   
+                    .emoji {
+                       width: 300px;/*largura igual a 300px*/
+                       height: 300px;/*altura igual a 300px*/
+                       background-color: white;
+                    }
+                
+                    #ladoDirt  {	
+                        float:right; /* posicionado a direita*/
+                        width:100px; /* medindo 240 px de largura*/
+                        padding:10px;
+                        left: 800px;
+                        }  /*definir  margem e largura da terceira coluna*/  
+                        #baixo  { 
+                            clear:both;
+                            padding:10px;
+                            background:#ff9; 	
+        
+                            } /*definir margem e largura e cor da parte de baixo*/
+                            #baixo a{
+                                background-color: ivory;
+                                float: right;
+                            } 

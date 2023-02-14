@@ -1,0 +1,32 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} /* trocando todas as fontes por Geneva (por ser a que tem)*/
+
+body  {  	
+    margin: 0; 	/*nemhuma margem*/ 
+	background: #ddd; /*fundo branco*/ 
+    } /*tirar as margens e deixar todo o fundo do corpo branco*/
+    #cimapart {
+        background:black;
+                left: 285px;
+                padding:10;
+            } /*definir  margem e largura da parte de cima*/ 
+    
+                 #cimapart h1{
+                 color: white; 
+                 text-align: center;
+                 }/*definir cor e alinhamento das tag's h1 da classe cimapart*/
+                 #cimapart p{
+                 color:white;
+                 text-align: center; 
+                 }/*definir cor e alinhamento das tag's p da classe cimapart*/
+                 #ladoEsq  {  	 	
+                    float:left; /*posição recebe esquerda*/
+                    width:100px;  /*largura igual a 240px*/
+                    padding:10px;
+                    left: 800px;
+                    background-image: url('amarelo.jpg');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-position: center top;
+                    }/*definir  margem e largura da primeira coluna*/
